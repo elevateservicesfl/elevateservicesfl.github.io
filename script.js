@@ -2,6 +2,18 @@
 const navToggle = document.getElementById("navToggle");
 const navMenu = document.getElementById("navMenu");
 
+const sections = document.querySelectorAll('.section');
+
+const observer = new IntersectionObserver((entries)=>{
+  entries.forEach(entry=>{
+    if(entry.isIntersecting){
+      entry.target.classList.add('visible');
+    }
+  });
+},{ threshold: 0.15 });
+
+sections.forEach(section => observer.observe(section));
+
 if (navToggle && navMenu) {
   navToggle.addEventListener("click", () => {
     const isOpen = navMenu.classList.toggle("is-open");
