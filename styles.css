@@ -183,7 +183,7 @@ img{ max-width:100%; display:block; }
 
   opacity: 0;
   transform: translateY(25px) scale(.96);
-  animation: logoReveal 1s ease-out forwards;
+  animation: logoReveal 1s ease-out .4s forwards;
 }
 
 @keyframes logoReveal{
