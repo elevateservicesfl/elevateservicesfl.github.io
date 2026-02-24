@@ -4,82 +4,117 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Elevate Services | Elevator Subcontract Support | Tampa, FL</title>
+  <meta name="description" content="Elevate Services provides elevator subcontract support: pit cleaning, lighting, waterproofing support, outlets/GFCI replacements, cab lighting, elevator flooring, shaft fire rating compliance support, and soundproofing support within 50 miles of Tampa." />
 
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <meta property="og:title" content="Elevate Services | Elevator Subcontract Support" />
+  <meta property="og:description" content="Specialized pit, cab, and shaft-level subcontract support services within 50 miles of Tampa." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
 
-<header class="header">
-  <div class="container header-inner">
-    <div class="logo">
-      <img src="./Logo.png" alt="Elevate Services Logo">
-    </div>
-
-    <nav>
-      <a href="#services">Services</a>
-      <a href="#area">Service Area</a>
-      <a href="#contact" class="btn">Request Service</a>
-    </nav>
-  </div>
-</header>
-
-<section class="hero">
-  <div class="container">
-    <h1>Elevator Subcontract Support Services</h1>
-    <p>Specialized pit, cab, and shaft-level support within a 50-mile radius of Tampa, Florida.</p>
-    <a href="#contact" class="btn-primary">Request Service</a>
-  </div>
-</section>
-
-<section id="services" class="section">
-  <div class="container">
-    <h2>Services</h2>
-    <div class="grid">
-      <div class="card">
-        <h3>Pit Services</h3>
-        <p>Pit cleaning, lighting, outlet/GFCI replacement, sealing and waterproofing support.</p>
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__left">
+        <span class="dot"></span>
+        <span>Elevator Subcontract Support • 50-mile radius from Tampa</span>
       </div>
-
-      <div class="card">
-        <h3>Lighting</h3>
-        <p>Pit and cab lighting installation and replacement.</p>
-      </div>
-
-      <div class="card">
-        <h3>Cab Improvements</h3>
-        <p>Commercial elevator floor installation and interior upgrades.</p>
-      </div>
-
-      <div class="card">
-        <h3>Shaft Support</h3>
-        <p>Fire rating compliance support and shaft soundproofing assistance.</p>
+      <div class="topbar__right">
+        <a class="topbar__link" href="tel:18136037828">Call: (813) 603-7828</a>
+        <span class="sep">•</span>
+        <a class="topbar__link" href="mailto:Elevateservicesfl@gmail.com">Elevateservicesfl@gmail.com</a>
       </div>
     </div>
   </div>
-</section>
 
-<section id="area" class="section alt">
-  <div class="container">
-    <h2>Service Area</h2>
-    <p>Serving Tampa, Brandon, Riverview, Clearwater, St. Petersburg, Lakeland, Sarasota and surrounding areas within 50 miles.</p>
-  </div>
-</section>
+  <!-- Header -->
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="Elevate Services Home">
+        
+        <!-- LOGO UPDATED HERE -->
+        <img src="./Logo.png" alt="Elevate Services Logo" class="brand__logo" />
 
-<section id="contact" class="section">
-  <div class="container">
-    <h2>Request Service</h2>
-    <p>Call <strong>813-603-7828</strong> or email <strong>Elevateservicesfl@gmail.com</strong></p>
-  </div>
-</section>
+        <div class="brand__text">
+          <div class="brand__name">ELEVATE SERVICES</div>
+          <div class="brand__tag">Subcontract Support</div>
+        </div>
+      </a>
 
-<footer class="footer">
-  <div class="container footer-inner">
-    <img src="./Logo.png" alt="Elevate Services Logo" class="footer-logo">
-    <p>© 2026 Elevate Services • Subcontract Support Only</p>
-  </div>
-</footer>
+      <nav class="nav" aria-label="Primary navigation">
+        <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">
+          <span class="nav__toggleLines" aria-hidden="true"></span>
+          <span class="sr-only">Open menu</span>
+        </button>
 
+        <div class="nav__menu" id="navMenu">
+          <a class="nav__link" href="#services">Services</a>
+          <a class="nav__link" href="#process">Process</a>
+          <a class="nav__link" href="#area">Service Area</a>
+          <a class="nav__link" href="#about">About</a>
+          <a class="nav__link" href="#contact">Request Service</a>
+          <a class="btn btn--primary nav__cta" href="tel:18136037828">Call Now</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION (unchanged) -->
+    <section class="hero">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="hero__shape hero__shape--a"></div>
+        <div class="hero__shape hero__shape--b"></div>
+        <div class="hero__shape hero__shape--c"></div>
+      </div>
+
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="pill">Serving Tampa Bay + 50-mile radius</p>
+          <h1>Elevator Subcontract Support Services</h1>
+          <p class="hero__sub">
+            Specialized pit, cab, and shaft-level support built for elevator companies and commercial properties.
+            Clean execution. Clear communication. Documented results.
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#contact">Request Service</a>
+            <a class="btn btn--ghost" href="tel:18136037828">Call (813) 603-7828</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+
+        <!-- LOGO UPDATED HERE -->
+        <img src="./Logo.png" alt="Elevate Services Logo" class="brand__logo footer__logo" />
+
+        <div>
+          <div class="footer__name">ELEVATE SERVICES</div>
+          <div class="footer__tag">Elevator Subcontract Support • Tampa, FL</div>
+        </div>
+      </div>
+
+      <div class="footer__contact">
+        <a href="tel:18136037828">(813) 603-7828</a>
+        <a href="mailto:Elevateservicesfl@gmail.com">Elevateservicesfl@gmail.com</a>
+        <div class="footer__small">Subcontract support services only.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
