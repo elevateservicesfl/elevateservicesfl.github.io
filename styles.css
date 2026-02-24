@@ -329,6 +329,17 @@ img{ max-width:100%; display:block; }
 .section{
   padding: 3rem 0;
 }
+  .section{
+  opacity:0;
+  transform:translateY(20px);
+  transition:all .6s ease;
+}
+
+.section.visible{
+  opacity:1;
+  transform:translateY(0);
+}
+
 .section--alt{
   background: rgba(30,115,190,.05);
   border-top:1px solid var(--border);
