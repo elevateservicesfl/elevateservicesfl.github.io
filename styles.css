@@ -173,6 +173,31 @@ img{ max-width:100%; display:block; }
   position:relative;
   overflow:hidden;
 }
+
+/* ===== Intro Logo ===== */
+.hero__intro-logo{
+  margin-bottom: 1.5rem;
+}
+
+.hero__intro-logo img{
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+  object-fit: contain;
+  animation: fadeUp 0.8s ease-out;
+}
+
+@keyframes fadeUp{
+  from{
+    opacity:0;
+    transform: translateY(15px);
+  }
+  to{
+    opacity:1;
+    transform: translateY(0);
+  }
+}
+/* ======================= */
 .hero__inner{
   display:grid;
   grid-template-columns: 1.35fr .85fr;
