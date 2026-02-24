@@ -206,6 +206,13 @@ img{ max-width:100%; display:block; }
   align-items:start;
 }
 .hero__bg{ position:absolute; inset:0; pointer-events:none; }
+.hero{
+  background: linear-gradient(
+    to bottom,
+    rgba(10,31,60,.08),
+    transparent 60%
+  );
+}
 .hero__shape{
   position:absolute;
   filter: blur(0px);
