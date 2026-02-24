@@ -16,6 +16,15 @@
   --container: 1120px;
 }
 
+.brand__logo {
+  height: 48px;
+  width: auto;
+}
+
+.footer__logo {
+  height: 42px;
+}
+
 *{ box-sizing:border-box; }
 html{ scroll-behavior:smooth; }
 body{
